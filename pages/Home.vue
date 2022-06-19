@@ -1,7 +1,7 @@
 <template>
 <div class="slider">
     <div class="h-14 bg-gradient-to-r from-sky-500 to-indigo-500 p-[15%]"></div>
-</div>
+</div> 
 <section class="bg-blueW">
     <div class="box-container flex justify-between w-full max-w-box mx-auto items-center">
         <div class="col">
