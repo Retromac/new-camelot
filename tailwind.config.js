@@ -21,11 +21,11 @@ module.exports = {
         'border': '#336def',
         'footer-gray': '#51565c',
         'footer-gray-2': '#595d64',
-        
+
       },
       maxWidth: {
-       'box': '1140px',
-        }
+        'box': '1140px',
+      }
     },
   },
   plugins: [],
