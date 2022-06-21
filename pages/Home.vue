@@ -92,39 +92,23 @@
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                    <div>Ευρώπη</div>
+                    <div class="mb-3">Ευρώπη</div>
                 </div>
-                <div class="country_col flex-wrap flex w-full gap-y-1">
+                <div class="country_col flex-wrap flex w-full gap-y-3">
                     <a href="#" class="text-black-800 text-sm basis-3/12 flex-grow[25%] ">Ελλάδα</a>
+                    <a href="#" class="text-black-800 text-sm basis-3/12 flex-grow[25%]">Αλβανία</a>
+                    <a href="#" class="text-black-800 text-sm basis-3/12 flex-grow[25%]">Κύπρος</a>
+                    <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
+                        Κόσοβο
+                        <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
+                            SOON</span>
+                    </a>
                     <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
                         Βουλγαρία
                         <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
                             SOON</span>
                     </a>
                     <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
-                        Κοσσυφοπέδιο
-                        <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
-                            SOON</span>
-                    </a>
-
-                    <a href="#" class="text-black-800 text-sm basis-3/12 flex-grow[25%]">Κύπρος</a>
-                    <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
-
-                        Βόρεια Μακεδονία
-                        <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
-                            SOON</span>
-                    </a>
-                    <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
-
-                        Μονακό
-                        <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
-                            SOON</span>
-                    </a>
-
-
-                    <a href="#" class="text-black-800 text-sm basis-3/12 flex-grow[25%]">Κύπρος</a>
-                    <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
-
                         Βόρεια Μακεδονία
                         <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
                             SOON</span>
@@ -134,9 +118,16 @@
                         <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
                             SOON</span>
                     </a>
-                    <a href="#" class="text-black-800 text-sm basis-3/12 flex-grow[25%]">Αλβανία</a>
-
-
+                    <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
+                        Ιταλία
+                        <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
+                            SOON</span>
+                    </a>
+                    <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
+                        Μονακό
+                        <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
+                            SOON</span>
+                    </a>
                     <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
                         Γαλλία
                         <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
@@ -145,12 +136,12 @@
 
                 </div>
             </div>
-            <div class="flex w-full gap-y-1">
-                <div class="font-bold">ΑΜΕΡΙΚΗ</div>
+            <div class="flex w-full gap-y-1 flex-col mt-6">
+                <div class="font-bold mb-3">ΑΜΕΡΙΚΗ</div>
                 <a href="#" class="text-black-800 text-sm">Ηνωμένες Πολιτείες</a>
             </div>
-            <div class="flex w-full gap-y-1 flex-col">
-                <div class="font-bold">ΑΦΡΙΚΗ / ΜΕΣΗ ΑΝΑΤΟΛΗ</div>
+            <div class="flex w-full gap-y-1 flex-col mt-6">
+                <div class="font-bold mb-3">ΑΦΡΙΚΗ / ΜΕΣΗ ΑΝΑΤΟΛΗ</div>
                 <a href="#" class="text-gray-400 text-sm">
                     Κατάρ
                     <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
