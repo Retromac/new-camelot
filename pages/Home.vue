@@ -82,7 +82,7 @@
         <div
             class="box-container flex justify-between w-full max-w-box mx-auto mt-20 flex-col shadow-lg shadow-slate-200">
 
-            <div class="p-8">
+            <div class="p-8 ">
                 <div class="text-4xl text-blue font-semibold mb-3.5 w-full ">
                     & περισσότερες από 20 χώρες
                 </div>
@@ -157,30 +157,13 @@
                         <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
                             SOON</span></a>
                 </div>
+
             </div>
             <div class="border-4 bg-white border-yellow mt-8"></div>
         </div>
     </section>
-    <section>
-        <div class="box-container flex justify-between w-full max-w-box mx-auto mt-20">
-            <div class="row_title flex justify-between w-full">
-                <div class="text-2xl text-blue font-semibold before:content-['']"> Φίλτρα Νερού - Μπάνιου - Ντους - Αέρα
-                    - Ψύκτες -
-                    Ανταλλακτικά <img src="../assets/images/icon_wave-titles.svg" alt="wave" class="mt-2"></div>
-                <div class="flex">
-                    <button>ΟΛΑ ΤΑ ΠΡΟΪΟΝΤΑ</button>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="text-blueXL h-6 w-6 ml-2" fill="none"
-                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
     <section class="bg-yellowS">
-        <div class="box-container flex justify-between w-full max-w-box mx-auto mt-20 ">
+        <div class="box-container flex justify-between w-full max-w-box mx-auto -mt-10 pt-10">
             <div class="flex justify-between w-full flex-col">
                 <div class="text-2xl text-blue font-semibold before:content-['']"> Φιλτρα Νερου: Καθαρό & Υγιεινό Νερό
                     <img src="../assets/images/icon_wave-titles.svg" alt="wave" class="mt-2">
@@ -198,6 +181,24 @@
                             καταστρέφουν τον μυελό των οστών, δημιουργούν την επάρατη ασθένεια, βλάβες στα νεφρά κλπ.
                         </p>
                     </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section>
+        <div class="box-container flex justify-between w-full max-w-box mx-auto mt-20">
+            <div class="row_title flex justify-between w-full">
+                <div class="text-2xl text-blue font-semibold before:content-['']"> Φίλτρα Νερού - Μπάνιου - Ντους - Αέρα
+                    - Ψύκτες -
+                    Ανταλλακτικά <img src="../assets/images/icon_wave-titles.svg" alt="wave" class="mt-2"></div>
+                <div class="flex">
+                    <button>ΟΛΑ ΤΑ ΠΡΟΪΟΝΤΑ</button>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-blueXL h-6 w-6 ml-2" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
                 </div>
             </div>
 
