@@ -80,74 +80,112 @@
     </section>
     <section>
         <div
-            class="box-container flex justify-between w-full max-w-box mx-auto mt-20 flex-col shadow-lg shadow-slate-100 p-8">
+            class="box-container flex justify-between w-full max-w-box mx-auto mt-20 flex-col shadow-lg shadow-slate-200">
 
-            <div class="text-4xl text-blue font-semibold mb-3.5 w-full ">
-                & περισσότερες από 20 χώρες
-            </div>
-            <div class="flex w-full gap-y-1 flex-col">
-                <div class="font-bold flex w-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                    <div class="mb-3">Ευρώπη</div>
+            <div class="p-8 ">
+                <div class="text-4xl text-blue font-semibold mb-3.5 w-full ">
+                    & περισσότερες από 20 χώρες
                 </div>
-                <div class="country_col flex-wrap flex w-full gap-y-3">
-                    <a href="#" class="text-black-800 text-sm basis-3/12 flex-grow[25%] ">Ελλάδα</a>
-                    <a href="#" class="text-black-800 text-sm basis-3/12 flex-grow[25%]">Αλβανία</a>
-                    <a href="#" class="text-black-800 text-sm basis-3/12 flex-grow[25%]">Κύπρος</a>
-                    <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
-                        Κόσοβο
-                        <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
-                            SOON</span>
-                    </a>
-                    <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
-                        Βουλγαρία
-                        <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
-                            SOON</span>
-                    </a>
-                    <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
-                        Βόρεια Μακεδονία
-                        <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
-                            SOON</span>
-                    </a>
-                    <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
-                        Μονακό
-                        <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
-                            SOON</span>
-                    </a>
-                    <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
-                        Ιταλία
-                        <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
-                            SOON</span>
-                    </a>
-                    <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
-                        Μονακό
-                        <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
-                            SOON</span>
-                    </a>
-                    <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
-                        Γαλλία
-                        <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
-                            SOON</span>
-                    </a>
+                <div class="flex w-full gap-y-1 flex-col">
+                    <div class="font-bold flex w-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <div>Ευρώπη</div>
+                    </div>
+                    <div class="country_col flex-wrap flex w-full gap-y-1">
+                        <a href="#" class="text-black-800 text-sm basis-3/12 flex-grow[25%] ">Ελλάδα</a>
+                        <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
+                            Βουλγαρία
+                            <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
+                                SOON</span>
+                        </a>
+                        <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
+                            Κοσσυφοπέδιο
+                            <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
+                                SOON</span>
+                        </a>
 
+                        <a href="#" class="text-black-800 text-sm basis-3/12 flex-grow[25%]">Κύπρος</a>
+                        <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
+
+                            Βόρεια Μακεδονία
+                            <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
+                                SOON</span>
+                        </a>
+                        <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
+
+                            Μονακό
+                            <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
+                                SOON</span>
+                        </a>
+
+
+                        <a href="#" class="text-black-800 text-sm basis-3/12 flex-grow[25%]">Κύπρος</a>
+                        <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
+
+                            Βόρεια Μακεδονία
+                            <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
+                                SOON</span>
+                        </a>
+                        <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
+                            Μονακό
+                            <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
+                                SOON</span>
+                        </a>
+                        <a href="#" class="text-black-800 text-sm basis-3/12 flex-grow[25%]">Αλβανία</a>
+
+
+                        <a href="#" class="text-gray-400 text-sm basis-3/12 flex-grow[25%] ">
+                            Γαλλία
+                            <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
+                                SOON</span>
+                        </a>
+
+                    </div>
                 </div>
+                <div class="flex w-full gap-y-1">
+                    <div class="font-bold">ΑΜΕΡΙΚΗ</div>
+                    <a href="#" class="text-black-800 text-sm">Ηνωμένες Πολιτείες</a>
+                </div>
+                <div class="flex w-full gap-y-1 flex-col">
+                    <div class="font-bold">ΑΦΡΙΚΗ / ΜΕΣΗ ΑΝΑΤΟΛΗ</div>
+                    <a href="#" class="text-gray-400 text-sm">
+                        Κατάρ
+                        <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
+                            SOON</span></a>
+                </div>
+
             </div>
-            <div class="flex w-full gap-y-1 flex-col mt-6">
-                <div class="font-bold mb-3">ΑΜΕΡΙΚΗ</div>
-                <a href="#" class="text-black-800 text-sm">Ηνωμένες Πολιτείες</a>
-            </div>
-            <div class="flex w-full gap-y-1 flex-col mt-6">
-                <div class="font-bold mb-3">ΑΦΡΙΚΗ / ΜΕΣΗ ΑΝΑΤΟΛΗ</div>
-                <a href="#" class="text-gray-400 text-sm">
-                    Κατάρ
-                    <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
-                        SOON</span></a>
-            </div>
+            <div class="border-4 bg-white border-yellow mt-8"></div>
         </div>
+    </section>
+    <section class="bg-yellowS">
+        <div class="box-container flex justify-between w-full max-w-box mx-auto -mt-10 pt-10">
+            <div class="flex justify-between w-full flex-col">
+                <div class="text-2xl text-blue font-semibold before:content-['']"> Φιλτρα Νερου: Καθαρό & Υγιεινό Νερό
+                    <img src="../assets/images/icon_wave-titles.svg" alt="wave" class="mt-2">
+                </div>
+                <div class="flex">
+                    <div>
+                        <div>Without Chlorine</div>
+                        <p>Τα φίλτρα νερού αφαιρούν το χλώριο το οποίο τα παραπροϊόντα της χλωρίωσης δημιουργούν χημικές
+                            επικίνδυνες ενώσεις που σχετίζονται με την εμφάνιση καρκίνου, νεφροπαθειών και άλλων
+                            ασθενειών..</p>
+                    </div>
+                    <div>
+                        <div>Χωρίς Φυτοφάρμακα</div>
+                        <p>Τα ανοξείδωτα φιλτρα νερου βρυσης της Camelot αφαιρούν τα χημικά φυτοφάρμακα τα οποία και
+                            καταστρέφουν τον μυελό των οστών, δημιουργούν την επάρατη ασθένεια, βλάβες στα νεφρά κλπ.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
     </section>
     <section>
         <div class="box-container flex justify-between w-full max-w-box mx-auto mt-20">
