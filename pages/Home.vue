@@ -78,10 +78,8 @@
             </div>
         </div>
     </section>
-    <section>
-        <div
-            class="box-container flex justify-between w-full max-w-box mx-auto mt-20 flex-col shadow-lg shadow-slate-200">
-
+    <section class="z-[10] relative">
+        <div class="box-container flex justify-between w-full max-w-box mx-auto mt-20 flex-col shadow-lg shadow-slate-200 bg-white">
             <div class="p-8 ">
                 <div class="text-4xl text-blue font-semibold mb-3.5 w-full ">
                     & περισσότερες από 20 χώρες
@@ -162,25 +160,65 @@
             <div class="border-4 bg-white border-yellow mt-8"></div>
         </div>
     </section>
-    <section class="bg-yellowS">
-        <div class="box-container flex justify-between w-full max-w-box mx-auto -mt-10 pt-10">
+    <section class="bg-yellowS z-[0] relative">
+        <div class="box-container flex justify-between w-full max-w-box mx-auto -mt-10 pt-20">
             <div class="flex justify-between w-full flex-col">
                 <div class="text-2xl text-blue font-semibold before:content-['']"> Φιλτρα Νερου: Καθαρό & Υγιεινό Νερό
                     <img src="../assets/images/icon_wave-titles.svg" alt="wave" class="mt-2">
                 </div>
-                <div class="flex">
-                    <div>
-                        <div>Without Chlorine</div>
-                        <p>Τα φίλτρα νερού αφαιρούν το χλώριο το οποίο τα παραπροϊόντα της χλωρίωσης δημιουργούν χημικές
+                <div class="flex flex-wrap gap-3">
+                    <div class="flex items-center w-[49.4%] mb-10">
+                        <div class="w-full max-w-[93px] mr-7"><img class="" src="../assets/images/icon_drop-big.svg " alt=""></div>
+                        <div class="flex flex-wrap">
+                            <div>Without Chlorine</div>
+                            <div>Τα φίλτρα νερού αφαιρούν το χλώριο το οποίο τα παραπροϊόντα της χλωρίωσης δημιουργούν χημικές
                             επικίνδυνες ενώσεις που σχετίζονται με την εμφάνιση καρκίνου, νεφροπαθειών και άλλων
-                            ασθενειών..</p>
+                            ασθενειών..</div>
+                        </div>
                     </div>
-                    <div>
-                        <div>Χωρίς Φυτοφάρμακα</div>
-                        <p>Τα ανοξείδωτα φιλτρα νερου βρυσης της Camelot αφαιρούν τα χημικά φυτοφάρμακα τα οποία και
-                            καταστρέφουν τον μυελό των οστών, δημιουργούν την επάρατη ασθένεια, βλάβες στα νεφρά κλπ.
-                        </p>
+                    <div class="flex items-center w-[49.4%] mb-10">
+                        <div class="w-full max-w-[93px] mr-7"><img class="" src="../assets/images/icon_drop-big.svg " alt=""></div>
+                        <div class="flex flex-wrap">
+                            <div>Χωρίς Φυτοφάρμακα</div>
+                            <div>Τα ανοξείδωτα φιλτρα νερου βρυσης της Camelot αφαιρούν τα χημικά φυτοφάρμακα τα οποία και
+                            καταστρέφουν τον μυελό των οστών, δημιουργούν την επάρατη ασθένεια, βλάβες στα νεφρά κλπ.</div>
+                        </div>
                     </div>
+                    <div class="flex items-center w-[49.4%] mb-10">
+                        <div class="w-full max-w-[93px] mr-7"><img class="" src="../assets/images/icon_drop-big.svg " alt=""></div>
+                        <div class="flex flex-wrap">
+                            <div>Without Chlorine</div>
+                            <div>Τα φίλτρα νερού αφαιρούν το χλώριο το οποίο τα παραπροϊόντα της χλωρίωσης δημιουργούν χημικές
+                            επικίνδυνες ενώσεις που σχετίζονται με την εμφάνιση καρκίνου, νεφροπαθειών και άλλων
+                            ασθενειών..</div>
+                        </div>
+                    </div>
+                    <div class="flex items-center w-[49.4%] mb-10">
+                        <div class="w-full max-w-[93px] mr-7"><img class="" src="../assets/images/icon_drop-big.svg " alt=""></div>
+                        <div class="flex flex-wrap">
+                            <div>Χωρίς Φυτοφάρμακα</div>
+                            <div>Τα ανοξείδωτα φιλτρα νερου βρυσης της Camelot αφαιρούν τα χημικά φυτοφάρμακα τα οποία και
+                            καταστρέφουν τον μυελό των οστών, δημιουργούν την επάρατη ασθένεια, βλάβες στα νεφρά κλπ.</div>
+                        </div>
+                    </div>
+                    <div class="flex items-center w-[49.4%] mb-10">
+                        <div class="w-full max-w-[93px] mr-7"><img class="" src="../assets/images/icon_drop-big.svg " alt=""></div>
+                        <div class="flex flex-wrap">
+                            <div>Without Chlorine</div>
+                            <div>Τα φίλτρα νερού αφαιρούν το χλώριο το οποίο τα παραπροϊόντα της χλωρίωσης δημιουργούν χημικές
+                            επικίνδυνες ενώσεις που σχετίζονται με την εμφάνιση καρκίνου, νεφροπαθειών και άλλων
+                            ασθενειών..</div>
+                        </div>
+                    </div>
+                    <div class="flex items-center w-[49.4%] mb-10">
+                        <div class="w-full max-w-[93px] mr-7"><img class="" src="../assets/images/icon_drop-big.svg " alt=""></div>
+                        <div class="flex flex-wrap">
+                            <div>Χωρίς Φυτοφάρμακα</div>
+                            <div>Τα ανοξείδωτα φιλτρα νερου βρυσης της Camelot αφαιρούν τα χημικά φυτοφάρμακα τα οποία και
+                            καταστρέφουν τον μυελό των οστών, δημιουργούν την επάρατη ασθένεια, βλάβες στα νεφρά κλπ.</div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
 
