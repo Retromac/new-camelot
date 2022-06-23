@@ -95,41 +95,41 @@
                         <div>Ευρώπη</div>
                     </div>
                     <div class="country_col flex-wrap flex w-full gap-y-1">
-                        <a href="#" class="text-black-800 text-sm basis-3/12 mx-1.5">Ελλάδα</a>
-                        <a href="#" class="text-black-800 text-sm basis-3/12 mx-1.5">Κύπρος</a>
-                        <a href="#" class="text-black-800 text-sm basis-3/12 mx-1.5">Αλβανία</a>
-                        <a href="#" class="text-gray-400 text-sm basis-3/12 mx-1.5">
+                        <a href="#" class="text-black-800 text-sm basis-3/12 my-1.5">Ελλάδα</a>
+                        <a href="#" class="text-black-800 text-sm basis-3/12 my-1.5">Κύπρος</a>
+                        <a href="#" class="text-black-800 text-sm basis-3/12 my-1.5">Αλβανία</a>
+                        <a href="#" class="text-gray-400 text-sm basis-3/12 my-1.5">
                             Γερμανία
                             <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
                                 SOON</span>
                         </a>
-                        <a href="#" class="text-gray-400 text-sm basis-3/12 mx-1.5">
+                        <a href="#" class="text-gray-400 text-sm basis-3/12 my-1.5">
                             Βουλγαρία
                             <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
                                 SOON</span>
                         </a>
-                        <a href="#" class="text-gray-400 text-sm basis-3/12 mx-1.5">
+                        <a href="#" class="text-gray-400 text-sm basis-3/12 my-1.5">
                             Βόρεια Μακεδονία
                             <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
                                 SOON</span>
                         </a>
-                        <a href="#" class="text-gray-400 text-sm basis-3/12 mx-1.5">
+                        <a href="#" class="text-gray-400 text-sm basis-3/12 my-1.5">
                             Γαλλία
                             <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
                                 SOON</span>
                         </a>
-                        <a href="#" class="text-gray-400 text-sm basis-3/12 mx-1.5">
+                        <a href="#" class="text-gray-400 text-sm basis-3/12 my-1.5">
                             Ιταλία
                             <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
                                 SOON</span>
                         </a>
-                        <a href="#" class="text-gray-400 text-sm basis-3/12 mx-1.5">
+                        <a href="#" class="text-gray-400 text-sm basis-3/12 my-1.5">
                             Κόσοβο
                             <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
                                 SOON</span>
                         </a>
 
-                        <a href="#" class="text-gray-400 text-sm basis-3/12 mx-1.5">
+                        <a href="#" class="text-gray-400 text-sm basis-3/12 my-1.5">
 
                             Μονακό
                             <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
@@ -156,8 +156,15 @@
     <section class="bg-yellowS z-[0] relative">
         <div class="box-container flex justify-between w-full max-w-box mx-auto -mt-10 pt-20">
             <div class="flex justify-between w-full flex-col text-blackL">
-                <div class="text-2xl text-blue font-semibold before:content-['']"> Φιλτρα Νερου: Καθαρό & Υγιεινό Νερό
-                    <img src="../assets/images/icon_wave-titles.svg" alt="wave" class="mt-2">
+
+                <div class="text-4xl text-blue font-semibold before:content-['']"> Φιλτρα Νερου: Καθαρό & Υγιεινό
+                    Νερό <img src="../assets/images/icon_wave-titles.svg" alt="wave" class="mt-2"></div>
+                <div class="flex">
+                    <button>ΟΛΑ ΤΑ ΠΡΟΪΟΝΤΑ</button>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-blueXL h-6 w-6 ml-2" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
                 </div>
                 <div class="flex flex-wrap gap-3">
                     <div class="flex items-center w-[49.4%] mb-10">
@@ -165,11 +172,13 @@
                                 src="../assets/images/icon_drop-big.svg " alt=""> <img
                                 src="../assets/images/icon_nomedicines.svg" alt=""
                                 class="absolute top-0 w-full max-w-[60px] left-[18%] top-[30%]">
-                        </div>
-                        <div class="flex flex-wrap">
-                            <div class="icon_x w-5 bg-red-700 absolute rounded-full">
-                                <img src="../assets/images/icon_close.svg" alt="" class="">
+                            <div
+                                class="icon_x w-8 h-8 bg-redC absolute rounded-full felx justify-center items-center bottom-0">
+                                <img src="../assets/images/icon_close.svg" alt="" class="relative p-[5px] inline">
                             </div>
+                        </div>
+                        <div class="flex flex-wrap relative">
+
                             <div class="text-[22px] font-semibold">Without Chlorine</div>
                             <div class="text-[18px]">Τα φίλτρα νερού αφαιρούν το χλώριο το οποίο τα παραπροϊόντα της
                                 χλωρίωσης δημιουργούν
@@ -184,6 +193,10 @@
                                 src="../assets/images/icon_drop-big.svg " alt=""> <img
                                 src="../assets/images/icon_nopesticides.svg" alt=""
                                 class="absolute top-0 w-full max-w-[60px] left-[18%] top-[30%]">
+                            <div
+                                class="icon_x w-8 h-8 bg-redC absolute rounded-full felx justify-center items-center bottom-0">
+                                <img src="../assets/images/icon_close.svg" alt="" class="relative p-[5px] inline">
+                            </div>
                         </div>
                         <div class="flex flex-wrap">
                             <div class="text-[22px] font-semibold">Χωρίς Φυτοφάρμακα</div>
@@ -199,6 +212,10 @@
                                 src="../assets/images/icon_drop-big.svg " alt=""> <img
                                 src="../assets/images/icon_nomedicines.svg" alt=""
                                 class="absolute top-0 w-full max-w-[60px] left-[18%] top-[30%]">
+                            <div
+                                class="icon_x w-8 h-8 bg-redC absolute rounded-full felx justify-center items-center bottom-0">
+                                <img src="../assets/images/icon_close.svg" alt="" class="relative p-[5px] inline">
+                            </div>
                         </div>
                         <div class="flex flex-wrap">
                             <div class="text-[22px] font-semibold">Χωρίς Μόλυβδο</div>
@@ -215,6 +232,10 @@
                                 src="../assets/images/icon_drop-big.svg " alt=""> <img
                                 src="../assets/images/icon_pah.svg" alt=""
                                 class="absolute top-0 w-full max-w-[60px] left-[18%] top-[30%]">
+                            <div
+                                class="icon_x w-8 h-8 bg-redC absolute rounded-full felx justify-center items-center bottom-0">
+                                <img src="../assets/images/icon_close.svg" alt="" class="relative p-[5px] inline">
+                            </div>
                         </div>
                         <div class="flex flex-wrap">
                             <div class="text-[22px] font-semibold">Χωρίς PAH
@@ -233,6 +254,10 @@
                                 src="../assets/images/icon_drop-big.svg " alt=""> <img
                                 src="../assets/images/icon_skull.svg" alt=""
                                 class="absolute top-0 w-full max-w-[60px] left-[18%] top-[30%]">
+                            <div
+                                class="icon_x w-8 h-8 bg-redC absolute rounded-full felx justify-center items-center bottom-0">
+                                <img src="../assets/images/icon_close.svg" alt="" class="relative p-[5px] inline">
+                            </div>
                         </div>
                         <div class="flex flex-wrap">
                             <div class="text-[22px] font-semibold">Χωρίς Ίνες Αμιάντου
@@ -250,6 +275,10 @@
                                 src="../assets/images/icon_drop-big.svg " alt=""> <img
                                 src="../assets/images/icon_nomedicines.svg" alt=""
                                 class="absolute top-0 w-full max-w-[60px] left-[18%] top-[30%]">
+                            <div
+                                class="icon_x w-8 h-8 bg-redC absolute rounded-full felx justify-center items-center bottom-0">
+                                <img src="../assets/images/icon_close.svg" alt="" class="relative p-[5px] inline">
+                            </div>
                         </div>
                         <div class="flex flex-wrap">
                             <div class="text-[22px] font-semibold">Χωρίς Φαρμακευτικές Ουσίες
@@ -272,7 +301,7 @@
     <section>
         <div class="box-container flex justify-between w-full max-w-box mx-auto mt-20">
             <div class="row_title flex justify-between w-full">
-                <div class="text-2xl text-blue font-semibold before:content-['']"> Φίλτρα Νερού - Μπάνιου - Ντους - Αέρα
+                <div class="text-4xl text-blue font-semibold before:content-['']"> Φίλτρα Νερού - Μπάνιου - Ντους - Αέρα
                     - Ψύκτες -
                     Ανταλλακτικά <img src="../assets/images/icon_wave-titles.svg" alt="wave" class="mt-2"></div>
                 <div class="flex">
