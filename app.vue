@@ -1,9 +1,7 @@
 <template>
-
-  <Header />
-  <router-view />
-
-  <Footer />
+  <Header/>
+  <router-view/>
+  <Footer/>
 </template>
 
 <script>
