@@ -1,14 +1,17 @@
 <template>
-  <Header/>
-  <router-view/>
-  <Footer/>
+  <div>
+    <Header />
+    
+    <NuxtPage />
+    <Footer />
+ 
+  </div>
 </template>
 
 <script>
 
 
 export default {
-
 }
 </script>
 

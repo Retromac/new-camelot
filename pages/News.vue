@@ -1,5 +1,8 @@
 <template>
-  News
+
+      <div>
+  <h1>a NEWS  PAGE</h1>
+</div>
 </template>
 
 <script>

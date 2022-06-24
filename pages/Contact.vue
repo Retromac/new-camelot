@@ -1,5 +1,8 @@
 <template>
-  Contact page
+
+      <div>
+  <h1>a Contact  PAGE</h1>
+</div>
 </template>
 
 <script>

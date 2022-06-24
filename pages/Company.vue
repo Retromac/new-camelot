@@ -1,5 +1,8 @@
 <template>
-  company page
+ 
+    <div>
+  <h1>a company  PAGE</h1>
+</div>
 </template>
 
 <script>

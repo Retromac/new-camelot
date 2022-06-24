@@ -46,7 +46,7 @@
 </template>
 
 <script>
-import { NuxtLink } from "~~/.nuxt/components";
+
 
 export default {
 

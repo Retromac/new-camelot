@@ -1,5 +1,7 @@
 <template>
-  affiliates
+  <div>
+  <h1>affiliates PAGE</h1>
+</div>
 </template>
 
 <script>

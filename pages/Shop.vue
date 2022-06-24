@@ -1,5 +1,6 @@
 <template>
-<section class="">
+<div>
+    <section class="">
         <div class="box-container flex justify-between w-full max-w-box mx-auto flex-wrap">
           <div class="text-4xl text-blue font-semibold">
            <div>
@@ -16,8 +17,8 @@
            <p>Πριν επιλέξετε κάποιο φίλτρο από εμάς ή από αλλού διαβάστε και ποια είναι τα σημεία που πρέπει να προσέξετε όταν είναι να επιλέξετε ένα σύστημα καθαρισμού νερού καθώς και διαβάστε και τις συχνές ερωτήσεις. </p> 
 
           </div>
-        </div>
-       </section>
+      </div>
+    </section>
        <section>
           <div class="box-container flex w-full max-w-box mx-auto mt-9">
             <div class="sidebar bg-yellowS px-5 py-10 flex w-4/12">
@@ -65,7 +66,7 @@
             </div>
           </div>
        </section>
-                
+   </div>             
         </template>
 
 <script>
