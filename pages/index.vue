@@ -1,7 +1,5 @@
 <template>
-<Breadcrumb />
 <div>
-    <Breadcrumb />dsdadasd
     <div class="slider">
         <div class="h-14 bg-gradient-to-r from-sky-500 to-indigo-500 p-[15%]"></div>
     </div>
@@ -38,7 +36,7 @@
             <div class="col basis-2/4 relative">
                 <div class="col_inner w-full bg-white drop-shadow-md absolute top-0">
                     <div class="p-8 relative">
-                        <img src="../assets/images/badge_usa.svg" alt="usa" class="absolute -right-9">
+                        <img src="../assets/images/badge_usa.svg" alt="usa" class="absolute -right-9 imperial_img">
                         <img src="../assets/images/imperial-plus.webp" alt="Imperial plus">
                         <p class="text-blueL text-3xl text-center font-semibold	px-3 border-t mt-5 pt-6">
                             Φίλτρα Νερού Βρύσης Imperial Plus 5ης γενιάς
@@ -51,7 +49,7 @@
 
     </section>
     <section>
-        <div class="box-container flex justify-between w-full max-w-box mx-auto mt-20 items-center">
+        <div class="box-container flex justify-between w-full max-w-box mx-auto mt-20 items-center animate_top">
             <div class="basis-[30%]"><img src="../assets/images/splash-logo.png" alt=""></div>
             <div class="basis-[70%]">
                 <div class="text-4xl text-blue font-semibold mb-3.5">
@@ -83,7 +81,7 @@
     </section>
     <section class="z-[10] relative">
         <div
-            class="box-container flex justify-between w-full max-w-box mx-auto mt-20 flex-col shadow-lg shadow-slate-200 bg-white">
+            class="box-container flex justify-between w-full max-w-box mx-auto mt-20 flex-col shadow-lg shadow-slate-200 bg-white animate_top">
             <div class="p-8 ">
                 <div class="text-4xl text-blue font-semibold mb-3.5 w-full ">
                     & περισσότερες από 20 χώρες
@@ -159,18 +157,23 @@
     <section class="bg-yellowS z-[0] relative">
         <div class="box-container flex justify-between w-full max-w-box mx-auto -mt-10 pt-20">
             <div class="flex justify-between w-full flex-col text-blackL">
-
-                <div class="text-4xl text-blue font-semibold before:content-['']"> Φιλτρα Νερου: Καθαρό & Υγιεινό
-                    Νερό <img src="../assets/images/icon_wave-titles.svg" alt="wave" class="mt-2"></div>
-                <div class="flex">
-                    <button>ΟΛΑ ΤΑ ΠΡΟΪΟΝΤΑ</button>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="text-blueXL h-6 w-6 ml-2" fill="none"
-                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
+                <div class="flex justify-between mb-4 animate_top">
+                    <div class=" flex-col text-4xl text-blue font-semibold ">
+                        <div>
+                            Φιλτρα Νερου: Καθαρό & Υγιεινό Νερό 
+                        </div>
+                        <img src="../assets/images/icon_wave-titles.svg" alt="wave" class="mt-2">
+                    </div>
+                    <div class="flex items-center">
+                        <button>ΟΛΑ ΤΑ ΠΡΟΪΟΝΤΑ</button>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-blueXL h-6 w-6 ml-2" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
+                    </div>
                 </div>
                 <div class="flex flex-wrap gap-3">
-                    <div class="flex items-center w-[49.4%] mb-10">
+                    <div class="flex items-center w-[49.4%] mb-10 drop_box">
                         <div class="w-full max-w-[93px] mr-7 relative"><img class=""
                                 src="../assets/images/icon_drop-big.svg " alt=""> <img
                                 src="../assets/images/icon_nomedicines.svg" alt=""
@@ -191,7 +194,7 @@
                         </div>
 
                     </div>
-                    <div class="flex items-center w-[49.4%] mb-10">
+                    <div class="flex items-center w-[49.4%] mb-10 drop_box">
                         <div class="w-full max-w-[93px] mr-7 relative"><img class=""
                                 src="../assets/images/icon_drop-big.svg " alt=""> <img
                                 src="../assets/images/icon_nopesticides.svg" alt=""
@@ -210,7 +213,7 @@
                                 κλπ.</div>
                         </div>
                     </div>
-                    <div class="flex items-center w-[49.4%] mb-10">
+                    <div class="flex items-center w-[49.4%] mb-10 drop_box">
                         <div class="w-full max-w-[93px] mr-7 relative"><img class=""
                                 src="../assets/images/icon_drop-big.svg " alt=""> <img
                                 src="../assets/images/icon_nomedicines.svg" alt=""
@@ -230,7 +233,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex items-center w-[49.4%] mb-10">
+                    <div class="flex items-center w-[49.4%] mb-10 drop_box">
                         <div class="w-full max-w-[93px] mr-7 relative"><img class=""
                                 src="../assets/images/icon_drop-big.svg " alt=""> <img
                                 src="../assets/images/icon_pah.svg" alt=""
@@ -252,7 +255,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex items-center w-[49.4%] mb-10">
+                    <div class="flex items-center w-[49.4%] mb-10 drop_box">
                         <div class="w-full max-w-[93px] mr-7 relative"><img class=""
                                 src="../assets/images/icon_drop-big.svg " alt=""> <img
                                 src="../assets/images/icon_skull.svg" alt=""
@@ -273,7 +276,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex items-center w-[49.4%] mb-10">
+                    <div class="flex items-center w-[49.4%] mb-10 drop_box">
                         <div class="w-full max-w-[93px] mr-7 relative"><img class=""
                                 src="../assets/images/icon_drop-big.svg " alt=""> <img
                                 src="../assets/images/icon_nomedicines.svg" alt=""
@@ -323,8 +326,38 @@
 </template>
 
 <script>
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+gsap.registerPlugin(ScrollTrigger);
 export default {
+    mounted: function(onEnter){  
+        const sections = document.querySelectorAll('section');
+        sections.forEach(section => {
+            gsap.from(section.querySelector('.animate_top'), {
+                duration: 1,
+                opacity: 0,
+                yPercent: 30,
+                markers:true,
+                scrollTrigger: {
+                trigger: section,
+                start: 'center bottom',
+                },
+            });
+        }); 
+        
+        
+        gsap.defaults({ease: "ease"});
+        gsap.set(".drop_box", {y: 50});
+
+        ScrollTrigger.batch(".drop_box", {
+            onEnter: batch => gsap.to(batch, {opacity: 1, y: 0, stagger: {each: 0.25}, overwrite: true}),
+            onLeave: batch => gsap.set(batch, {opacity: 0, y: -50, overwrite: true})
+        });
+
+
+
+    }
 }
 </script>
 

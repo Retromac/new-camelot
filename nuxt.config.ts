@@ -5,12 +5,12 @@ export default defineNuxtConfig({
     build: {
         postcss: {
             postcssOptions: {
-            plugins: {
-                tailwindcss: {},
-                autoprefixer: {},
-            },
+                plugins: {
+                    tailwindcss: {},
+                    autoprefixer: {},
+                },
             },
         },
-      },
-      css:['~/assets/css/main.css']
+    },
+    css: ['~/assets/css/main.css']
 })
