@@ -27,6 +27,11 @@ module.exports = {
       },
       maxWidth: {
         'box': '1140px',
+      },
+      flexGrow: {
+        '1': 1,
+        '2': 2,
+        '3': 3
       }
     },
   },

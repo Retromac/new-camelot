@@ -49,6 +49,11 @@
 
     </section>
     <section>
+        <div class="box-container flex justify-between w-full max-w-box mx-auto mt-20 items-center">
+        <Productgrid />
+        </div>
+    </section>
+    <section>
         <div class="box-container flex justify-between w-full max-w-box mx-auto mt-20 items-center animate_top">
             <div class="basis-[30%]"><img src="../assets/images/splash-logo.png" alt=""></div>
             <div class="basis-[70%]">
@@ -214,7 +219,8 @@
                         </div>
                     </div>
                     <div class="flex items-center w-[49.4%] mb-10 drop_box">
-                        <div class="w-full max-w-[93px] mr-7 relative"><img class=""
+                        <div class="w-full max-w-[93px] mr-7 relative">
+                            <img class=""
                                 src="../assets/images/icon_drop-big.svg " alt=""> <img
                                 src="../assets/images/icon_nomedicines.svg" alt=""
                                 class="absolute top-0 w-full max-w-[60px] left-[18%] top-[30%]">
@@ -304,23 +310,43 @@
         </div>
 
     </section>
-    <section>
-        <div class="box-container flex justify-between w-full max-w-box mx-auto mt-20">
-            <div class="row_title flex justify-between w-full">
-                <div class="text-4xl text-blue font-semibold before:content-['']"> Φίλτρα Νερού - Μπάνιου - Ντους - Αέρα
-                    - Ψύκτες -
-                    Ανταλλακτικά <img src="../assets/images/icon_wave-titles.svg" alt="wave" class="mt-2"></div>
-                <div class="flex">
-                    <button>ΟΛΑ ΤΑ ΠΡΟΪΟΝΤΑ</button>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="text-blueXL h-6 w-6 ml-2" fill="none"
-                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
+    <section class="bg-blueW py-14">
+         <div class="box-container flex flex-wrap justify-between w-full max-w-box mx-auto ">
+            <div class="text-4xl font-bold text-blueXL pt-10 mb-12 relative">
+                <img src="../assets/images/icon_quotes-big.svg" alt="" class="opacity-10 absolute top-0 -left-8">
+                <div class="flex flex-wrap">
+                    Camelot<sup>®</sup> International Health <span class="text-blueS ">Organization</span> has been <span class="text-blueS ">providing</span> quality products <span class="text-blueS ">worldwide since 1980</span>.
+                    <img src="../assets/images/icon_quotes-little.svg" alt="" class="opacity-10 relative top-5">
+                </div>
+                
+            </div>
+            <div class="flex gap-3 justify-between">
+                <div class="colicon flex items-center">
+                    <img src="../assets/images/icon_parameters.svg" alt="">
+                    <div class="text-blueS pl-2">Free Examination of water parameters</div>
+                </div>
+                <div class="colicon flex items-center">
+                    <img src="../assets/images/icon_laboratory.svg" alt="">
+                    <div class="text-blueS pl-2">Daily scientific studies in our laboratories</div>
+                </div>
+                <div class="colicon flex items-center">
+                    <img src="../assets/images/icon_filtering.svg" alt="">
+                    <div class="text-blueS pl-2">14 Filtering stages</div>
+                </div>
+                <div class="colicon flex items-center">
+                    <img src="../assets/images/icon_certification.svg" alt="">
+                    <div class="text-blueS pl-2">The highest International certifications</div>
                 </div>
             </div>
-
         </div>
-
+    </section>
+    <section>
+        <div class="box-container flex flex-wrap justify-between w-full max-w-box mx-auto ">
+        <Horizontalbanner/>
+        </div>
+    </section>
+    <section>
+        <Counter/>
     </section>
     </div>
 </template>

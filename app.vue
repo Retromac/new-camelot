@@ -10,8 +10,13 @@
 
 <script>
 
-
+import global from "/mixins/global.js";
 export default {
+  mixins: [global],
+  mounted:function(){
+        this.test()
+    }
+  
 }
 </script>
 
