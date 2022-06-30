@@ -341,23 +341,83 @@
         </div>
     </section>
     <section>
-        <div class="box-container flex flex-wrap justify-between w-full max-w-box mx-auto ">
-        <Horizontalbanner/>
+        <div class="box-container flex flex-wrap justify-between w-full max-w-box mx-auto">
+            <div class="mt-14 block">
+                <Horizontalbanner/>
+            </div>
         </div>
     </section>
+    <section class="bg-blueW">
+        <div class="box-container flex flex-wrap justify-between w-full max-w-box mx-auto mt-10 py-10">
+            
+            <div class="flex justify-between mb-4 animate_top mb-10 mt-4 w-full">
+                <div class=" flex-col text-4xl text-blue font-semibold">
+                    <div>
+                        Συχνές Ερωτήσεις Για Τα Φίλτρα Νερο
+                    </div>
+                    <img src="../assets/images/icon_wave-titles.svg" alt="wave" class="mt-2">
+                </div>
+            </div>
+            
+            <Accordion title="Which are the points I must pay attention to when I have to choose a water purification filter?" class="border-b border-blueL">
+            <div class="flex">
+                <div class="">    
+                    <p>1) You have to check if the company which is going to provide you is trustworthy and has a long presence in the sector, in order to be sure that you will find spare parts and immediate service, as it is a common occurrence in many cases for someone to be looking for parts and be unable to find them because the company has closed. CAMELOT has had a dynamic and respect-worthy presence since 1980.</p>
+                    <p>2) It is important that the company you choose and its people have enough knowledge in relation to water and water purification systems. Camelot’s people are specialized and certified by the larger American entity regarding water quality (Water Quality Association) and of course continuous information and training in whatever is new in science and technology.</p>
+                    <p>3) It is necessary that there is a client service department and a competent technical department for any eventuality, so that they can serve you immediately and correctly.</p>
+                    <p>4) It is also important that the product you choose has certifications regarding retaining contaminants by official entities, so that it provides you and your family with the protection you need. Usually, many competitive products may have some certification, but in most cases they have been tested for few parameters and not for the tens of different chemical and dangerous substances. Also important is the fact that you must make certain that it will not remove the metallic salts necessary for the human body. For example, reverse-opposite osmosis systems remove them.</p>
+                    <p>5) Often, some people experiment with a chlorine detector in new replacement filters trying to prove to you that chlorine is removed. However, the specific experiment must be repeated after one year e.g. for you to see whether it continues removing chlorine. It is a common occurrence for other competitive filters to remove chlorine in the beginning and after approx. 20 days to fail to remove even that. In this specific case therefore, you were simply deceiving yourself thinking that you were drinking clean water.
+                    (Camelot’s partners always carry out this experiment before removing the old internal replacement filter and replacing it by a new one).</p>
+                    <p>6) Therefore, your first care must not be to buy the cheapest filter in the market, deluding yourself that it will provide protection for your health, since especially in the filter category you get what you pay for.</p>
+                    <p>This is not the case with a chair for example, where it does not matter which one you will buy, as the purpose and the result will be the same: you will sit.</p>
+                    <p>It is a water purification filter which, depending on its capacities, will remove the dangerous contaminants from water, therefore you will have to focus your interest on the effectiveness of your filter. In addition, tap water and bad nutrition contribute as a basic cause for 70% of illnesses.</p>
+                    <p>But if you want a less expensive filter, we can provide you with a corresponding solution with much better effectiveness results in relation to the price compared with those generally available.</p>
+                    <p>CAMELOT is a pioneer in this sector and the basic reason for it is experience and respect to the client. The huge production and the extensive distribution worldwide of CAMELOT water purification systems reduces cost for us, while you benefit from it.</p>
+                    <p>7) So, before you choose a water filter, it is good to have compared it with our systems, because the decision you make will also be the one considered the best possible for you.</p>
+                </div>
+                <div class="w-full">
+                    <img src="../assets/images/27-en.png" alt="">
+                </div>
+            </div>
+            </Accordion>
+            <Accordion title="Why should I get a water purification system from you?" >
+                <div class="flex">
+                <div>
+            <p>For the guaranteed quality it will offer you for a lifetime. It will give you for one year guaranteed clean – healthy water up to the last glass before you change internal filters. The International Health Organization Camelot has been contributing since 1945 in the development and maintenance of people’s health, offering them modern and scientifically documented solutions.</p>
+            <p>Camelot water purification systems have been created after yearlong research and examinations by large organizations, such as the Ministry of Health Care Services of California, Ortech International, F.D.A, NSF, ( Imperial M, Imperial P,  Camelot V ), WQA of America, Thessaloniki Aristoteles University and many more. Our systems will certainly give you in a safe and guaranteed way the cleanest, healthiest and better-tasting water, precisely because we use the most modern technology and the best materials.</p>
+            <p>They will moreover offer you ease and of course value for money, in contrast to the expense for the transport and purchase of bottled water of dubious quality which cause a huge cost for drinking, cooking and washing your foodstuffs. Our systems Imperial Maximum, Columbia II Plus and Imperial Plus provide a higher performance, ease and less maintenance, because they require changing the filters once a year and not more often, as is the case with most filters. They are also made of stainless steel which is guaranteed for a lifetime in contrast to other filters.  Columbia D and Aqua Vie are guaranteed for 3 years for all places. Finally, the experienced health advisors we have will provide you with all the solutions required.</p>
+            </div>
+                <div class="w-full">
+                    <img src="../assets/images/12.png" alt="">
+                </div>
+                </div>
+            </Accordion>       
+       </div>
+    </section>
     <section>
-        <Counter/>
+        <div class="box-container flex flex-wrap justify-between w-full max-w-box mx-auto mb-10">
+            <div class="flex justify-between mb-4 animate_top mb-10 mt-4 w-full">
+                <div class=" flex-col text-4xl text-blue font-semibold">
+                    <div>
+                        Camelot<sup>®</sup> Worldwide
+                    </div>
+                    <img src="../assets/images/icon_wave-titles.svg" alt="wave" class="mt-2">
+                </div>
+            </div>
+            <Counter/>
+        </div>
     </section>
     </div>
 </template>
 
 <script>
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+//import { gsap } from "gsap";
+//import { ScrollTrigger } from "gsap/ScrollTrigger";
+//gsap.registerPlugin(ScrollTrigger);
 
-gsap.registerPlugin(ScrollTrigger);
 export default {
-    mounted: function(onEnter){  
+    
+    /* mounted: function(onEnter){  
         const sections = document.querySelectorAll('section');
         sections.forEach(section => {
             gsap.from(section.querySelector('.animate_top'), {
@@ -375,15 +435,11 @@ export default {
         
         gsap.defaults({ease: "ease"});
         gsap.set(".drop_box", {y: 50});
-
         ScrollTrigger.batch(".drop_box", {
             onEnter: batch => gsap.to(batch, {opacity: 1, y: 0, stagger: {each: 0.25}, overwrite: true}),
             onLeave: batch => gsap.set(batch, {opacity: 0, y: -50, overwrite: true})
         });
-
-
-
-    }
+    } */    
 }
 </script>
 

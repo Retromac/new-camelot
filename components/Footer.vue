@@ -1,4 +1,39 @@
 <template>
+    <section>
+        <div class="box-container flex flex-wrap justify-between w-full max-w-box mx-auto mb-10">
+            <div class="flex justify-between mb-4 animate_top mb-10 mt-4 w-full">
+                <div class=" flex-col text-4xl text-blue font-semibold">
+                    <div>
+                        Επικοινωνήστε μαζί μας
+                    </div>
+                    <img src="../assets/images/icon_wave-titles.svg" alt="wave" class="mt-2">
+                </div>
+            </div>
+            <div>
+                <form action="/">
+                <div>
+                    <input type="text" placeholder="Ονοματεπώνυμο">
+                    <input type="text" placeholder="Email">
+                </div>
+                <div>
+                    <input type="text" placeholder="Τηλέφωνο">
+                    <input type="text" placeholder="Περιοχή">
+                </div>
+                <div>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Μήνυμα"></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" name="aggree" id="" class="cursor-pointer">
+                    <label for="aggree">Συμφωνώ στην επεξεργασία προσωπικών δεδομένων σύμφωνα με την <a href="#" target="_blank" rel="noopener noreferrer" class="cursor-pointer">Πολιτική Προστασίας Προσωπικών Δεδομένων</a></label>
+                </div>
+                
+                <div>
+                   <input type="submit" value="ΑΠΟΣΤΟΛΗ" class="cursor-pointer">
+                </div>
+                </form>
+            </div>
+        </div>
+    </section>
     <div class="subfooter-cnt bg-footer-gray w-full text-white">
         <div class="box-container flex justify-between w-full max-w-box mx-auto items-center">
             <div class="sub_footer_col">
