@@ -19,9 +19,7 @@
     <div class="count text-6xl text-blueXL font-bold">
         <vue3-autocounter ref="counter" :startAmount="0" :endAmount="2.3" :duration="1" prefix="" suffix="M" separator=',' decimalSeparator='.' :decimals='1'/>        
         <div class="text-sm text-blueXL font-medium">Happy Customers Worldwide</div>
-    </div>
-     
-
+    </div>  
   </div>
 </template>
 

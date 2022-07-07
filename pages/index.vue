@@ -1,8 +1,11 @@
 <template>
 <div>
+    <!-- slider Home -->
     <div class="slider">
         <div class="h-14 bg-gradient-to-r from-sky-500 to-indigo-500 p-[15%]"></div>
     </div>
+
+    <!-- Φίλτρα νερού βρύσης Camelot -->
     <section class="bg-blueW">
         <div class="box-container flex justify-between w-full max-w-box mx-auto">
             <div class="col basis-2/4 pt-20 pb-20 pr-3.5">
@@ -48,11 +51,15 @@
         </div>
 
     </section>
+
+    <!-- Προϊόντα GRID -->
     <section>
         <div class="box-container flex justify-between w-full max-w-box mx-auto mt-20 items-center">
         <Productgrid />
         </div>
     </section>
+
+    <!-- 40 years No1 in many countries -->
     <section>
         <div class="box-container flex justify-between w-full max-w-box mx-auto mt-20 items-center animate_top">
             <div class="basis-[30%]"><img src="../assets/images/splash-logo.png" alt=""></div>
@@ -84,6 +91,8 @@
             </div>
         </div>
     </section>
+
+    <!-- & περισσότερες από 20 χώρες -->
     <section class="z-[10] relative">
         <div
             class="box-container flex justify-between w-full max-w-box mx-auto mt-20 flex-col shadow-lg shadow-slate-200 bg-white animate_top">
@@ -159,6 +168,8 @@
             <div class="border-4 bg-white border-yellow mt-8"></div>
         </div>
     </section>
+
+    <!-- Φιλτρα Νερου: Καθαρό & Υγιεινό Νερό -->
     <section class="bg-yellowS z-[0] relative">
         <div class="box-container flex justify-between w-full max-w-box mx-auto -mt-10 pt-20">
             <div class="flex justify-between w-full flex-col text-blackL">
@@ -310,12 +321,14 @@
         </div>
 
     </section>
+
+    <!-- Ο Διεθνής Οργανισμός Υγείας Camelot -->  
     <section class="bg-blueW py-14">
-         <div class="box-container flex flex-wrap justify-between w-full max-w-box mx-auto ">
+        <div class="box-container flex flex-wrap justify-between w-full max-w-box mx-auto ">
             <div class="text-4xl font-bold text-blueXL pt-10 mb-12 relative">
                 <img src="../assets/images/icon_quotes-big.svg" alt="" class="opacity-10 absolute top-0 -left-8">
                 <div class="flex flex-wrap">
-                    Camelot<sup>®</sup> International Health <span class="text-blueS ">Organization</span> has been <span class="text-blueS ">providing</span> quality products <span class="text-blueS ">worldwide since 1980</span>.
+                    Ο Διεθνής <span class="text-blueS">Οργανισμός</span> Υγείας <span class="text-blueS">Camelot<sup>®</sup></span> προσφέρει <span class="text-blueS">ποιοτικά</span> προϊόντα προάγοντας την υγεία <span class="text-blueS">παγκοσμίως από το 1980</span>.                   
                     <img src="../assets/images/icon_quotes-little.svg" alt="" class="opacity-10 relative top-5">
                 </div>
                 
@@ -340,6 +353,8 @@
             </div>
         </div>
     </section>
+
+     <!-- free charge Banner -->
     <section>
         <div class="box-container flex flex-wrap justify-between w-full max-w-box mx-auto">
             <div class="mt-14 block">
@@ -347,6 +362,8 @@
             </div>
         </div>
     </section>
+
+    <!-- Συχνές Ερωτήσεις Για Τα Φίλτρα Νερο -->
     <section class="bg-blueW">
         <div class="box-container flex flex-wrap justify-between w-full max-w-box mx-auto mt-10 py-10">
             
@@ -359,43 +376,153 @@
                 </div>
             </div>
             
-            <Accordion title="Which are the points I must pay attention to when I have to choose a water purification filter?" class="border-b border-blueL">
+            <Accordion title="Φίλτρα νερού: Γιατί η αγορά από την Camelot Φιλτρα Νερου βελτιώνει την υγεία σας;" class="transition-all border-b border-blueL text-xl">
             <div class="flex">
-                <div class="">    
-                    <p>1) You have to check if the company which is going to provide you is trustworthy and has a long presence in the sector, in order to be sure that you will find spare parts and immediate service, as it is a common occurrence in many cases for someone to be looking for parts and be unable to find them because the company has closed. CAMELOT has had a dynamic and respect-worthy presence since 1980.</p>
-                    <p>2) It is important that the company you choose and its people have enough knowledge in relation to water and water purification systems. Camelot’s people are specialized and certified by the larger American entity regarding water quality (Water Quality Association) and of course continuous information and training in whatever is new in science and technology.</p>
-                    <p>3) It is necessary that there is a client service department and a competent technical department for any eventuality, so that they can serve you immediately and correctly.</p>
-                    <p>4) It is also important that the product you choose has certifications regarding retaining contaminants by official entities, so that it provides you and your family with the protection you need. Usually, many competitive products may have some certification, but in most cases they have been tested for few parameters and not for the tens of different chemical and dangerous substances. Also important is the fact that you must make certain that it will not remove the metallic salts necessary for the human body. For example, reverse-opposite osmosis systems remove them.</p>
-                    <p>5) Often, some people experiment with a chlorine detector in new replacement filters trying to prove to you that chlorine is removed. However, the specific experiment must be repeated after one year e.g. for you to see whether it continues removing chlorine. It is a common occurrence for other competitive filters to remove chlorine in the beginning and after approx. 20 days to fail to remove even that. In this specific case therefore, you were simply deceiving yourself thinking that you were drinking clean water.
-                    (Camelot’s partners always carry out this experiment before removing the old internal replacement filter and replacing it by a new one).</p>
-                    <p>6) Therefore, your first care must not be to buy the cheapest filter in the market, deluding yourself that it will provide protection for your health, since especially in the filter category you get what you pay for.</p>
-                    <p>This is not the case with a chair for example, where it does not matter which one you will buy, as the purpose and the result will be the same: you will sit.</p>
-                    <p>It is a water purification filter which, depending on its capacities, will remove the dangerous contaminants from water, therefore you will have to focus your interest on the effectiveness of your filter. In addition, tap water and bad nutrition contribute as a basic cause for 70% of illnesses.</p>
-                    <p>But if you want a less expensive filter, we can provide you with a corresponding solution with much better effectiveness results in relation to the price compared with those generally available.</p>
-                    <p>CAMELOT is a pioneer in this sector and the basic reason for it is experience and respect to the client. The huge production and the extensive distribution worldwide of CAMELOT water purification systems reduces cost for us, while you benefit from it.</p>
-                    <p>7) So, before you choose a water filter, it is good to have compared it with our systems, because the decision you make will also be the one considered the best possible for you.</p>
+                <div class="w-full mr-5">
+                        <img src="../assets/images/19.png" alt="" class="min-w-180px">
+                    </div>
+                <div class="text-sm">    
+                    <p>Μα για την εγγυημένη ποιότητα που θα σας δίνει για μια ζωή. Θα σας δίνει για ένα χρόνο εγγυημένα καθαρό – υγιεινό νερό μέχρι και το τελευταίο ποτήρι πριν αλλάξετε εσωτερικά φίλτρα. Ο Διεθνής Οργανισμός Υγείας Camelot από το 1945 συντελεί στην ανάπτυξη και διατήρηση της υγείας των ανθρώπων προσφέροντας τους σύγχρονες και επιστημονικά τεκμηριωμένες λύσεις.</p>
+                    <p>Τα συστήματα καθαρισμού της Camelot έχουν δημιουργηθεί μετά από πολυετείς έρευνες και εξετάσεις από μεγάλους φορείς όπως είναι το Υπουργείο Υγειονομικών Υπηρεσιών της California, το Ortech International, το F.D.A, το NSF, το WQA της Αμερικής, το Αριστοτέλειο Πανεπιστήμιο Θεσ/νίκης και άλλα πολλά. Τα συστήματα μας θα σας δώσουν σίγουρα και εγγυημένα το καθαρότερο, διαυγέστερο, υγιεινότερο και με την καλύτερη γεύση νερό επειδή ακριβώς χρησιμοποιούμε την πλέον προηγμένη τεχνολογία και τα καλύτερα υλικά.</p>
+                    <p>Επιπλέον θα σας προσφέρουν ευκολία και βέβαια οικονομία εν αντιθέσει με την επιβάρυνση της μεταφοράς και της αγοράς των αμφιβόλου ποιότητας εμφιαλωμένων νερών το κόστος των οποίων για να πιείτε, να μαγειρέψετε και να πλύνετε τα τρόφιμά σας είναι τεράστιο. Tα συστήματα μας Imperial Maximum, Columbia II Plus και Imperial Plus προσφέρουν ανώτερη απόδοση, ευκολία και λιγότερη συντήρηση επειδή απαιτούν αλλαγή των φίλτρων 1 φορά το χρόνο και όχι συχνότερα όπως τα περισσότερα φίλτρα. Επίσης είναι από ανοξείδωτο ατσάλι το οποίο έχει εγγύηση εφόρου ζωής σε αντίθεση με άλλα φίλτρα. Το Columbia D και Aqua Vie έχουν εγγύηση 3 χρόνια για όλα τα μέρη. Τέλος οι έμπειροι σύμβουλοι υγείας που έχουμε θα σας δώσουν όλες τις λύσεις που χρειάζεστε.</p>
                 </div>
-                <div class="w-full">
-                    <img src="../assets/images/27-en.png" alt="">
-                </div>
+                
             </div>
             </Accordion>
-            <Accordion title="Why should I get a water purification system from you?" >
+            <Accordion title="Φίλτρα νερού: Τι να προσέξω και γιατί να εμπιστευθώ την κορυφαία εταιρεία Camelot αντί των άγνωστων και αμφιβόλου ποιότητας ανταγωνιστών;" class="text-xl border-b border-blueL">
+                <div class="flex">                    
+                    <div class="text-sm"> 
+                        <p>1) Πρέπει να ελέγξετε αν η εταιρεία που πρόκειται να σας το προμηθεύσει είναι αξιόπιστη και με αρκετά χρόνια παρουσίας στο χώρο για να είσθε σίγουροι ότι θα βρίσκετε ανταλλακτικά και άμεσο service, επειδή είναι σύνηθες φαινόμενο σε πολλές περιπτώσεις να ψάχνει κάποιος κάποια ανταλλακτικά και να μη βρίσκει επειδή η εταιρεία έκλεισε. H CAMELOT έχει μια δυναμική και αξιοσέβαστη παρουσία από το 1980.</p>
+                        <p>2) Είναι σημαντικό η εταιρεία που θα επιλέξετε και οι άνθρωποι της να έχουν αρκετές γνώσεις σχετικά με ό,τι αφορά στο νερό και τα συστήματα καθαρισμού του νερού. Οι άνθρωποι της Camelot έχουν ειδίκευση με πιστοποίηση από τον μεγαλύτερο Αμερικάνικο φορέα σχετικά με την ποιότητα του νερού (Water Quality Association) και βέβαια συνεχή ενημέρωση και εκπαίδευση σε ό,τι νεότερο προκύπτει στην επιστήμη και την τεχνολογία.</p>
+                        <p>3) Είναι απαραίτητο να υπάρχει τμήμα εξυπηρέτησης πελατών και αρμόδιο τεχνικό τμήμα για οτιδήποτε προκύψει, ώστε να μπορούν να σας εξυπηρετήσουν άμεσα και σωστά.</p>
+                        <p>4) Σημαντικό επίσης είναι το προιόν που πρόκειται να επιλέξετε να έχει πιστοποιήσεις σχετικά με την παρακράτηση των μολυντών από επίσημους φορείς, ώστε να σας προσφέρει την προστασία σε σας και την οικογένειά σας. Συνήθως πολλά ανταγωνιστικά προϊόντα μπορεί να έχουν κάποια πιστοποίηση όμως τις περισσότερες φορές έχουν εξετασθεί για λίγες παραμέτρους και όχι για τις δεκάδες διαφορετικές χημικές και επικίνδυνες ουσίες. Επίσης σημαντικό είναι ότι πρέπει να σιγουρευτείτε ότι δεν θα αφαιρεί τα μεταλλικά άλατα που είναι απαραίτητα για τον οργανισμό του ανθρώπου. Συστήματα όπως π.χ. αντίστροφης-αντίθετης όσμωσης τα αφαιρούν.</p>
+                        <p>5) Πολλές φορές κάποιοι κάνουν πειράματα με ανιχνευτή χλωρίου σε καινούρια ανταλλακτικά φίλτρα θέλοντας να σας αποδείξουν ότι το χλώριο αφαιρείται. Όμως το συγκεκριμένο πείραμα πρέπει να γίνεται και μετά από π.χ. ένα χρόνο πριν την αλλαγή αυτού του ανταλλακτικού για να δείτε αν συνεχίζει να αφαιρεί το χλώριο. Είναι σύνηθες φαινόμενο άλλα ανταγωνιστικά φίλτρα να αφαιρούν το χλώριο στην αρχή και μετά από περίπου 20 ημέρες να μην αφαιρούν ούτε καν αυτό. Στην προκειμένη περίπτωση λοιπόν απλά παραπλανούσατε τον εαυτό σας νομίζοντας ότι πίνετε καθαρό νερό. (Οι συνεργάτες της Camelot πάντα κάνουν το συγκεκριμένο πείραμα πριν αφαιρέσουν το παλιό εσωτερικό ανταλλακτικό φίλτρο και το αντικαταστήσουν με καινούργιο).</p>
+                        <p>6) Έτσι λοιπόν δεν πρέπει να είναι το πρώτο μέλημα σας να προμηθευτείτε το πιο φθηνό φίλτρο που υπάρχει στην αγορά έχοντας την ψευδαίσθηση ότι θα παρέχει και προστασία στην υγεία σας μιας και ειδικά στην κατηγορία των φίλτρων ό,τι πληρώσεις αυτό και παίρνεις.
+                        Στην περίπτωση αυτή δεν πρόκειται π.χ. για μια καρέκλα που όποια και να αγοράσετε ο σκοπός και το αποτέλεσμα είναι το ίδιο – να κάθεσθε. Πρόκειται για φίλτρο καθαρισμού του νερού που ανάλογα με τις ικανότητες του θα αφαιρέσει και τους επικίνδυνους ρύπους από το νερό οπότε θα πρέπει να επικεντρώσετε το ενδιαφέρον σας για το πόσο αποτελεσματικό είναι το φίλτρο σας. Εξάλλου το νερό της βρύσης και η κακή διατροφή συντελούν ως βασική αιτία για 70% των ασθενειών. Στην περίπτωση όμως που θέλετε κάποιο φίλτρο πιο οικονομικό, μπορούμε να σας δώσουμε επίσης ανάλογη λύση με πολύ καλύτερα αποτελέσματα απόδοσης σε σχέση και με τιμή συγκριτικά με ό,τι κυκλοφορεί γενικά. Η CAMELOT είναι πρωτοπόρος στον τομέα αυτόν και βασικός λόγος γιαυτό είναι η πείρα, οι γνώσεις και ο σεβασμός προς τον πελάτη. Η τεράστια παραγωγή και η μεγάλη διάθεση παγκοσμίως των συστημάτων καθαρισμού του νερού της CAMELOT, ρίχνει το κόστος σε εμάς, ενώ μετακυλείεται σε εσάς ως κέρδος.</p>
+                        <p>7) Πρίν επιλέξετε λοιπόν κάποιο φίλτρο νερού, καλό είναι να έχετε κάνει σύγκριση και με τα συστήματα μας επειδή ακριβώς και η απόφαση που θα πάρετε θα είναι αυτή που θεωρείται ως η καλύτερη δυνατή για εσάς.</p>
+                    </div>
+                    <div class="w-full ml-5">
+                    <img src="../assets/images/27.png" alt="" class="min-w-180px">
+                    </div>
+                </div>
+            </Accordion>
+            <Accordion title="Φίλτρα νερού: Φίλτρα νερού βρύσης και ποια η σημασία των πιστοποιήσεων για την υγεία του καταναλωτη;" class="text-xl">
                 <div class="flex">
-                <div>
-            <p>For the guaranteed quality it will offer you for a lifetime. It will give you for one year guaranteed clean – healthy water up to the last glass before you change internal filters. The International Health Organization Camelot has been contributing since 1945 in the development and maintenance of people’s health, offering them modern and scientifically documented solutions.</p>
-            <p>Camelot water purification systems have been created after yearlong research and examinations by large organizations, such as the Ministry of Health Care Services of California, Ortech International, F.D.A, NSF, ( Imperial M, Imperial P,  Camelot V ), WQA of America, Thessaloniki Aristoteles University and many more. Our systems will certainly give you in a safe and guaranteed way the cleanest, healthiest and better-tasting water, precisely because we use the most modern technology and the best materials.</p>
-            <p>They will moreover offer you ease and of course value for money, in contrast to the expense for the transport and purchase of bottled water of dubious quality which cause a huge cost for drinking, cooking and washing your foodstuffs. Our systems Imperial Maximum, Columbia II Plus and Imperial Plus provide a higher performance, ease and less maintenance, because they require changing the filters once a year and not more often, as is the case with most filters. They are also made of stainless steel which is guaranteed for a lifetime in contrast to other filters.  Columbia D and Aqua Vie are guaranteed for 3 years for all places. Finally, the experienced health advisors we have will provide you with all the solutions required.</p>
-            </div>
-                <div class="w-full">
-                    <img src="../assets/images/12.png" alt="">
+                    <div class="text-sm"> 
+                        <p>Είναι πολύ σημαντικό κάποιος να δει τις διάφορες πιστοποιήσεις που υπάρχουν και από ποιους φορείς έχουν γίνει. Υπάρχουν εταιρείες στο χώρο που εκμεταλλεύονται την άγνοια του κόσμου και λένε ότι έχουν πιστοποιήσεις από φορείς. Όταν όμως τους ζητηθούν δεν έχουν κάτι να δείξουν. Επίσης έχει σημασία και σε τι παραμέτρους έχουν γίνει οι εξετάσεις. Π.χ. κάποια φίλτρα μπορεί να έχουν μια πιστοποίηση από ένα οργανισμό σχετικά με την αφαίρεση κάποιας παραμέτρου π.χ. όπως είναι το χλώριο. Αυτό όμως δεν σημαίνει ότι αφαιρεί και όλα τα υπόλοιπα. Οπότε είναι πολύ σημαντικό να βλέπετε για το αν έχει ελεγχθεί σε διαφορετικούς παραμέτρους. Τέλος υπάρχουν εταιρείες που έχουν κάποια βεβαίωση σχετικά με την αφαίρεση επικίνδυνων μολυντών ενός τοπικού εργαστηρίου. Τα τοπικά και μικρά εργαστήρια δεν έχουν τα μέσα για να κάνουν εμπεριστατωμένες εξετάσεις για όλα τα επικίνδυνα και δεν είναι αξιόπιστα.</p>
+                    </div>
+                <div class="w-full ml-5">
+                    <img src="../assets/images/12.png" alt="" class="min-w-180px">
                 </div>
                 </div>
-            </Accordion>       
+            </Accordion>  
        </div>
     </section>
-    <section>
-        <div class="box-container flex flex-wrap justify-between w-full max-w-box mx-auto mb-10">
+
+    <!-- Τα νέα της Φίλτρα Νερού Camelot -->
+    <section class=" bg-gradient-to-r from-yellowS via-yellowS to-white">
+        <div class="box-container flex flex-wrap justify-between flex-col w-full max-w-box mx-auto pb-12 pt-8">
+            <div class="w-full">
+                <div class="flex justify-between mb-4 animate_top mb-10 mt-4 w-full">
+                    <div class="flex-col text-4xl text-blue font-semibold">
+                        <div>
+                            Τα νέα της Φίλτρα Νερού Camelot®
+                        </div>
+                        <img src="../assets/images/icon_wave-titles.svg" alt="wave" class="mt-2">
+                    </div>
+                </div>       
+                <div class="news_cnt flex gap-5">
+                    <div class="news_box flex flex-wrap flex-col items-center max-w-[264px] bg-white">
+                        <div class="bg-cover py-[26%] bg-bottom bg-no-repeat w-full relative" style="background: url('/assets/images/news_box_img.jpeg');background-position: bottom;    background-repeat: no-repeat;background-size: cover;">
+                        <div class="w-full py-10 absolute bottom-0 bg-gradient-to-t from-white"></div>
+                        </div>
+                        <div class=" pl-5 pr-5 pb-5">
+                            <div class="news_box_title text-blueXL leading-5 mb-3 text-sm font-semibold">
+                            Ξέρουμε τι τρώμε; – Πλένοντας τα τρόφιμα μας τα «καθαρίζουμε» ή τα κάνουμε πιο «βρώμικα»;
+                        </div>
+                        <div class="news_box_exerpt text-xs border-b pb-3 mb-3">
+                            Τα τελευταία 50 χρόνια ο άνθρωπος προσπαθώντας να αυξήσει την παραγωγή τροφίμων τόσο φυτικών όσο και ζωικών και να μειώσει
+                        </div>
+                        <div class="news_box_meta text-xs flex justify-between items-center">
+                            <div class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                            
+                            <div class="pl-2">11 Ιουνίου, 2020</div>
+                            </div>
+                            <div><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg></a>
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+                    <div class="news_box flex flex-wrap flex-col items-center max-w-[264px] bg-white">
+                        <div class="bg-cover py-[26%] bg-bottom bg-no-repeat w-full relative" style="background: url('/assets/images/news_box_img.jpeg');background-position: bottom;    background-repeat: no-repeat;background-size: cover;">
+                        <div class="w-full py-10 absolute bottom-0 bg-gradient-to-t from-white"></div>
+                        </div>
+                        <div class=" pl-5 pr-5 pb-5">
+                            <div class="news_box_title text-blueXL leading-5 mb-3 text-sm font-semibold">
+                            Ξέρουμε τι τρώμε; – Πλένοντας τα τρόφιμα μας τα «καθαρίζουμε» ή τα κάνουμε πιο «βρώμικα»;
+                        </div>
+                        <div class="news_box_exerpt text-xs border-b pb-3 mb-3">
+                            Τα τελευταία 50 χρόνια ο άνθρωπος προσπαθώντας να αυξήσει την παραγωγή τροφίμων τόσο φυτικών όσο και ζωικών και να μειώσει
+                        </div>
+                        <div class="news_box_meta text-xs flex justify-between items-center">
+                            <div class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                            
+                            <div class="pl-2">11 Ιουνίου, 2020</div>
+                            </div>
+                            <div><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg></a>
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+                    <div class="news_box flex flex-wrap flex-col items-center max-w-[264px] bg-white">
+                        <div class="bg-cover py-[26%] bg-bottom bg-no-repeat w-full relative" style="background: url('/assets/images/news_box_img.jpeg');background-position: bottom;    background-repeat: no-repeat;background-size: cover;">
+                        <div class="w-full py-10 absolute bottom-0 bg-gradient-to-t from-white"></div>
+                        </div>
+                        <div class=" pl-5 pr-5 pb-5">
+                            <div class="news_box_title text-blueXL leading-5 mb-3 text-sm font-semibold">
+                            Ξέρουμε τι τρώμε; – Πλένοντας τα τρόφιμα μας τα «καθαρίζουμε» ή τα κάνουμε πιο «βρώμικα»;
+                        </div>
+                        <div class="news_box_exerpt text-xs border-b pb-3 mb-3">
+                            Τα τελευταία 50 χρόνια ο άνθρωπος προσπαθώντας να αυξήσει την παραγωγή τροφίμων τόσο φυτικών όσο και ζωικών και να μειώσει
+                        </div>
+                        <div class="news_box_meta text-xs flex justify-between items-center">
+                            <div class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                            
+                            <div class="pl-2">11 Ιουνίου, 2020</div>
+                            </div>
+                            <div><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg></a>
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="flex items-center justify-center mt-6">
+                    <a href="#" class="border-2 border-blackL px-5 py-3 flex items-center justify-center">
+                        ΟΛΑ ΤΑ ΝΕΑ
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-4" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+                    </a>
+                </div>
+            </div>
+         </div>
+
+    </section>
+
+    <!-- Camelot Worldwide counter -->
+    <section class="bg-blueW">
+        <div class="box-container flex flex-wrap justify-between w-full max-w-box mx-auto pb-20 pt-10">
             <div class="flex justify-between mb-4 animate_top mb-10 mt-4 w-full">
                 <div class=" flex-col text-4xl text-blue font-semibold">
                     <div>
@@ -407,6 +534,7 @@
             <Counter/>
         </div>
     </section>
+
     </div>
 </template>
 
