@@ -7,13 +7,11 @@
 
     <!-- Φίλτρα νερού βρύσης Camelot -->
     <section class="bg-blueW">
-        <div class="box-container flex justify-between w-full max-w-box mx-auto">
-            <div class="col basis-2/4 pt-20 pb-20 pr-3.5">
+        <div class="box-container flex justify-between w-full max-w-box mx-auto xs:flex-wrap">
+            <div class="col xs:w-full xs:pb-5 lg:basis-2/4 lg:pt-20 pb-20 pr-3.5">
                 <div
                     class="border-title border-4 bg-white border-blueXL text-blueXL text-lg font-semibold text-center py-4 mb-3.5">
-                    ΦΙΛΤΡΑ
-                    ΝΕΡΟΥ-ΚΟΡΥΦΑΙΑ
-                    ΠΡΟΪΟΝΤΑ
+                    ΦΙΛΤΡΑ ΝΕΡΟΥ-ΚΟΡΥΦΑΙΑ ΠΡΟΪΟΝΤΑ
                 </div>
                 <h1 class="text-4xl text-blue font-semibold mb-3.5">Φίλτρα νερού βρύσης Camelot<sup>®</sup> για καθαρό
                     φιλτραρισμένο νερό
@@ -22,8 +20,8 @@
                     για να
                     πίνετε, να μαγειρεύετε και να πλένετε τα τρόφιμα σας για έναν ολόκληρο χρόνο. Τα αξιόπιστα και
                     πιστοποιημένα <b>φίλτρα νερού</b> ενεργού άνθρακα με εξαιρετικές κριτικές από χιλιάδες πελάτες μας
-                    από την Αθήνα, τη Θεσσαλονίκη και όλη την Ελλάδα, σας προσφέρουν την ιδανική λύση για οικιακή ή
-                    επαγγελματική χρήση φίλτρων νερού βρύσης.</p>
+                    από την Αθήνα, τη Θεσσαλονίκη και όλη την Ελλάδα, σας προσφέρουν την ιδανική λύση για οικιακή ή                 επαγγελματική χρήση φίλτρων νερού βρύσης. 
+                </p>
                 <button class="bg-yellow py-4 px-8 flex mt-6">
                     <span class="blueS">
                         ΠΕΡΙΣΣΟΤΕΡΑ
@@ -36,11 +34,11 @@
                     </svg>
                 </button>
             </div>
-            <div class="col basis-2/4 relative">
-                <div class="col_inner w-full bg-white drop-shadow-md absolute top-0">
+            <div class="col xs:w-full lg:basis-2/4 relative">
+                <div class="col_inner w-full bg-white drop-shadow-md xl:absolute xs:relative top-0">
                     <div class="p-8 relative">
-                        <img src="../assets/images/badge_usa.svg" alt="usa" class="absolute -right-9 imperial_img">
-                        <img src="../assets/images/imperial-plus.webp" alt="Imperial plus">
+                        <img src="../assets/images/badge_usa.svg" alt="usa" class="absolute 2xl:-right-9 imperial_img xs:right-0">
+                        <img src="../assets/images/imperial-plus.webp" alt="Imperial plus" class="lg:w-full xs:max-w-sm xs:mx-auto">
                         <p class="text-blueL text-3xl text-center font-semibold	px-3 border-t mt-5 pt-6">
                             Φίλτρα Νερού Βρύσης Imperial Plus 5ης γενιάς
                         </p>
@@ -109,46 +107,46 @@
                         </svg>
                         <div>Ευρώπη</div>
                     </div>
-                    <div class="country_col flex-wrap flex w-full gap-y-1">
+                    <div class="country_col flex-wrap flex w-full gap-y-1 gap-x-5">
                         <a href="#" class="text-black-800 text-sm basis-3/12 my-1.5">Ελλάδα</a>
                         <a href="#" class="text-black-800 text-sm basis-3/12 my-1.5">Κύπρος</a>
                         <a href="#" class="text-black-800 text-sm basis-3/12 my-1.5">Αλβανία</a>
-                        <a href="#" class="text-gray-400 text-sm basis-3/12 my-1.5">
+                        <a href="#" class="text-gray-400 text-sm basis-3/12  my-1.5 flex justify-between ">
                             Γερμανία
-                            <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
-                                SOON</span>
+                            <div class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
+                                SOON</div>
                         </a>
-                        <a href="#" class="text-gray-400 text-sm basis-3/12 my-1.5">
+                        <a href="#" class="text-gray-400 text-sm basis-3/12  my-1.5 flex justify-between">
                             Βουλγαρία
-                            <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
-                                SOON</span>
+                            <div class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
+                                SOON</div>
                         </a>
-                        <a href="#" class="text-gray-400 text-sm basis-3/12 my-1.5">
+                        <a href="#" class="text-gray-400 text-sm basis-3/12  my-1.5 flex justify-between">
                             Βόρεια Μακεδονία
-                            <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
-                                SOON</span>
+                            <div class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
+                                SOON</div>
                         </a>
-                        <a href="#" class="text-gray-400 text-sm basis-3/12 my-1.5">
+                        <a href="#" class="text-gray-400 text-sm basis-3/12  my-1.5 flex justify-between">
                             Γαλλία
-                            <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
-                                SOON</span>
+                            <div class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
+                                SOON</div>
                         </a>
-                        <a href="#" class="text-gray-400 text-sm basis-3/12 my-1.5">
+                        <a href="#" class="text-gray-400 text-sm basis-3/12  my-1.5 flex justify-between">
                             Ιταλία
-                            <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
-                                SOON</span>
+                            <div class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
+                                SOON</div>
                         </a>
-                        <a href="#" class="text-gray-400 text-sm basis-3/12 my-1.5">
+                        <a href="#" class="text-gray-400 text-sm basis-3/12  my-1.5 flex justify-between">
                             Κόσοβο
-                            <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
-                                SOON</span>
+                            <div class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
+                                SOON</div>
                         </a>
 
-                        <a href="#" class="text-gray-400 text-sm basis-3/12 my-1.5">
+                        <a href="#" class="text-gray-400 text-sm basis-3/12  my-1.5 flex justify-between">
 
                             Μονακό
-                            <span class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400">COMING
-                                SOON</span>
+                            <div class="text-xs px-2 py-0.5 rounded-2xl border-solid border border-gray-400 ">COMING
+                                SOON</div>
                         </a>
                     </div>
                 </div>
@@ -572,4 +570,7 @@ export default {
 </script>
 
 <style>
+section{
+    padding:0 15px;
+}
 </style>

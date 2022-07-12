@@ -4,8 +4,8 @@
             <FooterForm/>
         </div>
     </section>
-    <section>
-        <div class="subfooter-cnt bg-footer-gray w-full text-white py-5">
+    <subfoorer>
+        <div class="subfooter-cnt bg-footer-gray w-full text-white py-5 px-4">
             <div class="box-container flex justify-between w-full max-w-box mx-auto items-center">
                 <div class="flex w-full">
                     <div class="sub_footer_col flex flex-col">
@@ -19,7 +19,7 @@
             </div>
         </div>
         
-    </section>  
+    </subfoorer>  
 <!-- FOOTER -->
     <footer class="bg-footer-gray-2">
         <div class="box-container flex justify-between w-full max-w-box mx-auto flex-shrik text-white pt-10 gap-4">
